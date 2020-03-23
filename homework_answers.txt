@@ -40,10 +40,10 @@ Questions
 
 6. We forgot one of the main characters! Add Bart Simpson to the ‘people’ table
 
-  
+  INSERT INTO people (name) VALUES ('Bart Simpson');
+  SELECT (name)  FROM people;
 
-  --  --
-
+  -- Returns a list of the people's names from the people table with the addition of Bart --
 
 
 7. Eric Cartman has decided to hijack our movie evening, Remove him from the table of people.
