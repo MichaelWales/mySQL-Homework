@@ -32,12 +32,18 @@ Questions
 
 5. The cinema is showing ‘Batman Begins’, but Batman is DC, not Marvel! Delete the entry from the ‘movies’ table.
 
+  DELETE FROM movies WHERE title = 'Batman Begins';
+  SELECT * FROM movies;
+
+  -- Returns the list of movies after deleting Batman --
+
+
+6. We forgot one of the main characters! Add Bart Simpson to the ‘people’ table
+
 
 
   --  --
 
-
-6. We forgot one of the main characters! Add Bart Simpson to the ‘people’ table
 
 
 7. Eric Cartman has decided to hijack our movie evening, Remove him from the table of people.
