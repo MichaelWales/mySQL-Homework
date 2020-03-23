@@ -40,7 +40,7 @@ Questions
 
 6. We forgot one of the main characters! Add Bart Simpson to the ‘people’ table
 
-
+  
 
   --  --
 
