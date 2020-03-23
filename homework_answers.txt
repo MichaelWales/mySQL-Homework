@@ -25,12 +25,16 @@ Questions
 
 4. Return ONLY Homer Simpson’s name from the ‘people’ table.
 
-SELECT (name) FROM people WHERE id = 1;
+  SELECT (name) FROM people WHERE id = 1;
 
--- Prints the value at index 1 in the people table --
+  -- Prints the value at index 1 in the people table --
 
 
 5. The cinema is showing ‘Batman Begins’, but Batman is DC, not Marvel! Delete the entry from the ‘movies’ table.
+
+
+
+  --  --
 
 
 6. We forgot one of the main characters! Add Bart Simpson to the ‘people’ table
