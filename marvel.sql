@@ -50,5 +50,4 @@ INSERT INTO movies (title, year, show_time) VALUES ('Spider-Man: Homecoming', 20
 INSERT INTO movies (title, year, show_time) VALUES ('Thor: Ragnarok', 2017, '22:10');
 INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '21:00');
 
-UPDATE people SET name = 'Krusty the Clown' WHERE name = 'Crusty the Clown';
-SELECT (name) FROM people;
+SELECT (name) FROM people WHERE id = 1;
