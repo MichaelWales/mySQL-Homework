@@ -64,6 +64,12 @@ Questions
 
 9. The cinema would like to make the Iron Man movies a triple billing. Find out the show time of “Iron Man 2” and set the show time of “Iron Man 3” to start two hours later.
 
+    SELECT (show_time) FROM movies WHERE title = 'Iron Man 2';
+    UPDATE movies SET show_time = '20:45' WHERE show_time = '21:55';
+    SELECT * FROM movies;
+
+    -- Returns the show time for Iron Man 2 (18:45) and updates the show time for Iron Man 3 (to 20:45) before returning the updates movies table --
+
 
 Extension
 -----------
