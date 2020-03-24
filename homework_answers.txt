@@ -10,7 +10,7 @@ Questions
 
 2 .Return ONLY the name column from the ‘people’ table
 
-    SELECT (title) FROM movies;
+    SELECT (name) FROM people;
 
     -- Shows just the content under the 'title' column header --
 
